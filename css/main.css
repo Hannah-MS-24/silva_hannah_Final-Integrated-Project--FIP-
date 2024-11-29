@@ -1,158 +1,174 @@
 /* 1. ---General Styles--- */
 
 #mobile-outline {
-    outline: 20px solid #333;
-    max-width: 412px;
-    margin: 20px auto 20px auto;
-  }
-  
-  body {
-    color: #626262;
-    font-family: "Sanchez", "Times New Roman", serif;
-  }
-  
-  a {
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  input,
-  textarea {
-    display: block;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .cr-red {
-    color: #9a2018;
-  }
-  
-  #main-nav label img {
-    width: 20px;
-    height: 20px;
-    margin-top: 15px;
-    cursor: pointer;
-    margin-bottom: 20px;
-    transition: all 0.5s ease;
-  }
-  
-  #main-nav input,
-  #burger-con {
-    display: none;
-  }
-  
-  #main-nav input:checked ~ #burger-con {
-    display: block;
-  }
-  
-  #main-nav input:checked ~ label img {
-    transform: rotate(90deg);
-  }
-  
-  #main-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #main-nav ul li a {
-    display: block;
-    padding: 10px 0 10px 0;
-    text-align: center;
-    color: #626262;
-  }
-  
-  #main-nav ul li {
-    border-bottom: 1px solid #efefef;
-  }
-  
-  #main-nav ul li:first-child {
-    border-top: 1px solid #efefef;
-  }
-  
-  #main-nav ul li:last-child {
-    margin-bottom: 40px;
-  }
-  
-  #logo {
-    margin-bottom: 20px;
-    max-width: 382px;
-  }
-  
-  /* 3. ---Main Hero Image--- */
-  
-  #hero {
-    background: url(../images/all-inclusive/header.jpg) no-repeat;
-    background-size: cover;
-    background-origin: inherit;
-  }
-  
-  #hero-summary {
-    background: url() no-repeat;
-    height: 190px;
-    width: 382px;
-    background-size: cover;
-  }
-  
-  .book-now {
-    background-color: #9a2018;
-    color: #fff;
-    font-size: 16px;
-    position: relative;
-    left: 20px;
-    padding: 5px 5px;
-    width: 170px;
-    height: 30px;
-    transition: background-color 500ms linear;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-style: italic;
-    cursor: pointer;
-  }
-  
-  .book-now:hover {
-    background-color: rgb(196, 28, 28);
-  }
-  
-  #book-now-hero {
-    height: 67px;
-  }
-  
-  #hero-heading-box {
-    position: relative;
-    left: 14px;
-    top: 30px;
-    width: 382px;
-    height: 71px;
-    padding: 5px;
-    background-color: #fff;
-  }
-  
-  .hero-img-h2,
-  .hero-img-h3 {
-    background: #fff;
-    padding: 10px 15px;
-    font-size: 14px;
-  }
-  
-  .hero-img-h2 span,
-  .hero-img-h3 span {
-    color: #9a2018;
-    font-size: 12px;
-  }
-  
-  .line-separator {
-    border: none; 
-    border-top: solid 3px #CF6666; 
-    margin-top: 10px; 
-    width: 100%;
-    padding-top: 10px;
-  }
-  
-  #hero-summary p {
-    font-size: 14px;
-    line-height: 22px;
-    margin-bottom: 20px;
-  }
-  
+  outline: 20px solid #333;
+  max-width: 412px;
+  margin: 20px auto 20px auto;
+}
+
+body {
+  color: #626262;
+  font-family: "Sanchez", "Times New Roman", serif;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+input,
+textarea {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.cr-red {
+  color: #9a2018;
+}
+
+#main-nav label img {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: all 0.5s ease;
+}
+
+#main-nav input,
+#burger-con {
+  display: none;
+}
+
+#main-nav input:checked ~ #burger-con {
+  display: block;
+}
+
+#main-nav input:checked ~ label img {
+  transform: rotate(90deg);
+}
+
+#main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#main-nav ul li a {
+  display: block;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  color: #626262;
+}
+
+#main-nav ul li {
+  border-bottom: 1px solid #efefef;
+}
+
+#main-nav ul li:first-child {
+  border-top: 1px solid #efefef;
+}
+
+#main-nav ul li:last-child {
+  margin-bottom: 40px;
+}
+
+#logo {
+  margin-bottom: 20px;
+  max-width: 382px;
+}
+
+/* 3. ---Main Hero Image--- */
+
+#hero {
+  background: url(../images/all-inclusive/header.jpg) no-repeat;
+  background-size: cover;
+  background-origin: inherit;
+}
+
+#hero-summary {
+  background: url() no-repeat;
+  height: 190px;
+  width: 382px;
+  background-size: cover;
+}
+
+.book-now {
+  background-color: #9a2018;
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+  left: 20px;
+  padding: 5px 5px;
+  width: 170px;
+  height: 30px;
+  transition: background-color 500ms linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.book-now:hover {
+  background-color: rgb(196, 28, 28);
+}
+
+#book-now-hero {
+  height: 67px;
+}
+
+#hero-heading-box {
+  position: relative;
+  left: 14px;
+  top: 30px;
+  width: 382px;
+  height: 71px;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.hero-img-h2,
+.hero-img-h3 {
+  background: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.hero-img-h2 span,
+.hero-img-h3 span {
+  color: #9a2018;
+  font-size: 12px;
+}
+
+.line-separator {
+  border: none;
+  border-top: solid 3px #cf6666;
+  margin-top: 10px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+#hero-summary p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.hero-summary-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+#hero-summary h3 {
+  position: relative;
+  left: 20px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #626262;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}

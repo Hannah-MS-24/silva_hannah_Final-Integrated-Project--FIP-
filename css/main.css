@@ -157,12 +157,6 @@ textarea {
   margin-bottom: 20px;
 }
 
-.hero-summary-img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-}
-
 #hero-summary h3 {
   position: relative;
   left: 20px;
@@ -171,4 +165,23 @@ textarea {
   color: #626262;
   margin-top: 40px;
   margin-bottom: 10px;
+}
+
+.hero-summary-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hero-summary-img2 {
+    width: 175px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.hero-summary-img3 {
+    width: 175px;
+    height: 100px;
+    object-fit: cover;
+    padding-top: 10px;
 }

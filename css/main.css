@@ -210,6 +210,7 @@ textarea {
 
 .read-more {
   background-color: #9a2018;
+  text-decoration: none;
   color: #fff;
   font-size: 10px;
   font-weight: lighter;
@@ -227,7 +228,24 @@ textarea {
   height: auto;
 }
 
+.read-more a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
 .read-more:hover {
-  background-color: rgb(196, 28, 28);
+  background-color: rgb(196, 28, 28); 
   transform: scale(0.95);
 }
+
+/** Section 2 **/
+
+#hero-img-2 {
+  background: url(../images/all-inclusive/section2.jpg) no-repeat;
+  background-size: cover;
+  background-origin: inherit;
+  height: 180px;
+  width: 412px;
+  margin-top: 10px;
+}
+

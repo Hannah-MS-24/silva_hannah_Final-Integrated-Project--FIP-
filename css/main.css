@@ -174,14 +174,60 @@ textarea {
 }
 
 .hero-summary-img2 {
-    width: 175px;
-    height: 100px;
-    object-fit: cover;
+  width: 175px;
+  height: 100px;
+  object-fit: cover;
 }
 
 .hero-summary-img3 {
-    width: 175px;
-    height: 100px;
-    object-fit: cover;
-    padding-top: 10px;
+  width: 175px;
+  height: 100px;
+  object-fit: cover;
+  padding-top: 10px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  max-width: 375px;
+  margin: 20px auto;
+}
+
+.text-container h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #626262;
+}
+
+.text-container p {
+  font-size: 12px;
+  color: #626262;
+  line-height: 1.5;
+}
+
+.read-more {
+  background-color: #9a2018;
+  color: #fff;
+  font-size: 10px;
+  font-weight: lighter;
+  transition: background-color 500ms linear, transform 300ms ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-align: center;
+  margin: 5px auto;
+  width: fit-content;
+  height: auto;
+}
+
+.read-more:hover {
+  background-color: rgb(196, 28, 28);
+  transform: scale(0.95);
 }

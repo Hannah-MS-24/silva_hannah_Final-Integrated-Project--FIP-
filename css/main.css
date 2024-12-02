@@ -184,6 +184,8 @@ textarea {
   height: 100px;
   object-fit: cover;
   padding-top: 10px;
+  /* grid-row: 2 / 3;  Força a imagem para a linha abaixo */
+  /* grid-column: 3 / 5; Faz a imagem ocupar toda a largura da grade */
 }
 
 .text-container {
@@ -229,19 +231,19 @@ textarea {
 }
 
 .read-more a {
-  text-decoration: none; 
-  color: inherit; 
+  text-decoration: none;
+  color: inherit;
 }
 
 .read-more:hover {
-  background-color: rgb(196, 28, 28); 
+  background-color: rgb(196, 28, 28);
   transform: scale(0.95);
 }
 
 /** Section 2 **/
 
 #hero-img-2 {
-  background: url(../images/all-inclusive/section2.jpg) no-repeat;
+  background: url(../images/all-inclusive/section-2.jpg) no-repeat;
   background-size: cover;
   background-origin: inherit;
   height: 180px;
@@ -249,3 +251,34 @@ textarea {
   margin-top: 10px;
 }
 
+#hero-heading-box-2 {
+  position: relative;
+  left: 14px;
+  top: 30px;
+  width: 382px;
+  height: 71px;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.hero-img-h2,
+.hero-img-h3 {
+  background: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.hero-img-h2 span,
+.hero-img-h3 span {
+  color: #9a2018;
+  font-size: 12px;
+}
+
+.line-separator {
+  border: none;
+  border-top: solid 3px #cf6666;
+  margin-top: 10px;
+  width: 100%;
+  padding-top: 10px;
+}

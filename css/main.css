@@ -248,8 +248,6 @@ na estrutura da página, ou seja, são "irmãos" dentro do HTML.  */
   height: 100px;
   object-fit: cover;
   padding-top: 10px;
-  /* grid-row: 2 / 3;  Força a imagem para a linha abaixo */
-  /* grid-column: 3 / 5; Faz a imagem ocupar toda a largura da grade */
 }
 
 .text-container {

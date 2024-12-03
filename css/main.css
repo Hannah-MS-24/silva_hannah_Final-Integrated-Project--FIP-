@@ -335,3 +335,31 @@ input, textarea {
   width: 100%;
   padding-top: 10px;
 }
+
+#heading-box-text h2 {
+  background: #fff;
+  padding: 10px 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+ul p {
+  background: #fff;
+  padding: 5px 15px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+ul li {
+  background: #fff;
+  padding: 5px 15px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#heading-box-text img {
+  width: 100%;
+  height: auto;
+  margin: 16px 0 16px 32px; 
+  display: block;
+}

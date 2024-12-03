@@ -47,9 +47,6 @@ input, textarea {
 }
 
 
-/* ~ sibling selector: Ele serve para selecionar elementos que estão no mesmo nível de outros elementos 
-na estrutura da página, ou seja, são "irmãos" dentro do HTML.  */
-
 #main-nav input:checked ~ #burger-con {
   display: block;
 }
@@ -231,24 +228,18 @@ na estrutura da página, ou seja, são "irmãos" dentro do HTML.  */
   margin-bottom: 10px;
 }
 
-.hero-summary-img {
+#img-1 {
   width: 200px;
   height: 200px;
   object-fit: cover;
 }
 
-.hero-summary-img2 {
+#img-2 {
   width: 175px;
   height: 100px;
   object-fit: cover;
 }
 
-.hero-summary-img3 {
-  width: 175px;
-  height: 100px;
-  object-fit: cover;
-  padding-top: 10px;
-}
 
 .text-container {
   display: flex;
